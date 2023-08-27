@@ -1,0 +1,179 @@
+body{
+    background-image:url(https://wallpapers.com/images/hd/3d-abstract-travel-wallpaper-awesome-rxo3qqiqy1uw5mcm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:beige;
+  }
+  .head1{
+    font-family: cursive;
+    font-size: 40px;
+    color:beige;
+  }
+  /* form section */
+  .search-form{
+    text-align: center;
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--light-black);
+  }
+  .well{
+    color: var(--white);
+    background-color: var(--light-black);
+  }
+ 
+  /* about section */
+  #about{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    /* width: 100%;
+    flex: 1 1 40rem;
+    padding: 2rem; */
+    background-color: var(--main-color);
+    border-radius: .5rem;
+    backdrop-filter: blur(.4rem);
+  }
+  /* services section */
+  .services.container{
+    background-image: url(images/traveltrees.jpeg);
+  }
+  
+  /* contact section */
+.contact{
+    background: url('../images/contact-bg.jpg') no-repeat rgba(0,0,0,.5);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+ }
+ 
+ .contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+ }
+ 
+ .contact .row .map{
+    width: 100%;
+    flex: 1 1 40rem;
+    padding: 2rem;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    backdrop-filter: blur(.4rem);
+    color:white;
+ }
+ 
+ .contact .row form{
+    flex: 1 1 40rem;
+    padding: 2rem;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    backdrop-filter: blur(.4rem);
+ }
+ 
+ .contact .row form h3{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    padding-bottom: 1rem;
+ }
+ 
+ .contact .row form .box{
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    background-color: var(--light-black);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: vwhite;
+    text-transform: none;
+ }
+ 
+ .contact .row form .box::placeholder{
+    color: var(--light-white);
+ }
+ 
+ .contact .row form textarea{
+    height: 15rem;
+    resize: none;
+ }
+ 
+ .contact .grid{
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    justify-content: center;
+    gap: 1.5rem;
+ }
+ 
+ .contact .grid .box{
+    padding:3rem 2rem;
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+ }
+ 
+ .contact .grid .box i{
+    height: 5rem;
+    width: 6rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    background-color: var(--light-black);
+    border-radius: .5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+ }
+ 
+ .contact .grid .box h3{
+    padding: .5rem 0;
+    font-size: 2rem;
+    color: white;
+ }
+ 
+ .contact .grid .box a{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 1.5;
+    text-transform: none;
+ }
+ 
+ .contact .grid .box a:hover{
+    color:var(--white);
+    text-decoration: underline;
+ }
+ 
+ 
+ .contact .credit{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--light-white);
+ }
+ 
+ .contact .credit span{
+    color: var(--main-color);
+ }
+ .icon{
+    color:white;
+    background-color: white;
+ }
+
+ .bgaboutus{
+    ackground-color: red;
+    background-image: url("images/travelplane.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
